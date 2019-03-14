@@ -1,0 +1,60 @@
+.bigbg{
+    width: 100%;
+    height: 800px;
+    background-image: url('../../img/testbg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat ;
+    display: flex;
+    align-items: center;
+}
+
+.bigbg__junbo{
+    border-top: 3px solid #808080;
+    border-bottom: 3px solid #808080;
+    padding: 60px 0 90px 0;
+    position: relative;
+}
+
+.bigbg__junbo--little{
+    margin-bottom:  30px;
+}
+
+.bigbg__junbo--little p{
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+.bigbg__junbo--big h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bigbg__junbo .mybtn:link,
+.bigbg__junbo .mybtn:visited{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 70px;
+    background-image: linear-gradient(120deg, #000 0%, #000 50%, transparent 50%);
+    background-size: 220%;
+    background-position: 0%;
+    transition: all .6s;
+}
+
+.bigbg__junbo .mybtn:hover,
+.bigbg__junbo .mybtn:active{
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    color: #000;
+    background-size: 220%;
+    background-position: 100%;
+    transition: all .6s;
+}

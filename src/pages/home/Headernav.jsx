@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-// import home from './home.css';
 import logo from '../../img/logo.png';
 import {Nav, NavItem , NavLink} from 'reactstrap';
+import './headernav.css';
 
-console.log(logo)
 class Headernav extends Component {
     render() {
         return (
             <section className="headernav">
                 <div className="container">
-                    <div className="row justify-content-between">
+                    <div className="row justify-content-between align-items-center">
                         <div className="col-md-3">
-                            <div className="home__img">
+                            <div className="headernav__img">
                                 <img src={logo} alt="logo"/>
                             </div>
                         </div>
                         <div className="col-md-7">
-                            <Nav>
+                            <Nav className="headernav__ul">
                                 <NavItem><NavLink href="#">HOME</NavLink></NavItem>
                                 <NavItem><NavLink href="#">ABOUT</NavLink></NavItem>
                                 <NavItem><NavLink href="#">AGENT</NavLink></NavItem>
