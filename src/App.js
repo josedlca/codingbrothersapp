@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Headernav from './pages/home/Headernav'
 import Bigbg from './pages/home/Bigbg'
+import Smallform from './pages/home/Smallform'
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <Headernav />
         <Bigbg />
+        <Smallform/>
       </div>
     );
   }

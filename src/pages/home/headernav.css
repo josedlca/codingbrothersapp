@@ -5,17 +5,4 @@
 .headernav__ul li a{
     font-size: 14px;
     color:  rgb(55, 55, 55); 
-}
-.HomE_______________About______________Agent____ {
-    font-size: 14px;
-    font-family: "Lato";
-    color: rgb(55, 55, 55);
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: right;
-    position: absolute;
-    left: 902.938px;
-    top: 35.6px;
-    z-index: 563;
-  }
-  
+}  
