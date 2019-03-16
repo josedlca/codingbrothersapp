@@ -1,0 +1,67 @@
+.smallform{
+    background-color: #727272;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.smallform__inps{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.smallform__inps--adress{
+    width: 33.32%;
+}
+.smallform__inps--adress input[type="text"],
+.smallform__inps--type select,
+.smallform__inps--status select,
+.smallform__inps--budget select{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c6c6c6;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.smallform__inps--type select option,
+.smallform__inps--status select option,
+.smallform__inps--budget select option{
+    background-color: #727272;
+    outline: none;
+}
+
+.smallform__inps--adress,
+.smallform__inps--type,
+.smallform__inps--status,
+.smallform__inps--budget{
+    margin-right: 50px;
+}
+
+.smallform__inps--adress input[type="text"]::placeholder{
+    color: #ffffff;
+} 
+
+.smallform__inps--type,
+.smallform__inps--status,
+.smallform__inps--budget{
+    width: 16.66%;
+}
+
+.smallform__inps--btn{
+    width: 14.5%;
+}
+
+.smallform__inps--btn input[type="submit"]{
+    background: #ffffff;
+    padding: 15px 48px;
+    border: none;
+    font-size: 18px;
+    color: rgb(0,0,0);
+    width: 100%;
+}
+  

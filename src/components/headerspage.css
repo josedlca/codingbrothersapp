@@ -1,0 +1,29 @@
+.headerspage__blueline{
+    margin-bottom: 20px;
+}
+
+.headerspage__blueline--line{
+    width: 2px;
+    height: 20px;
+    background-color: rgb(24, 99, 220);
+    display: inline-block;
+}
+
+.headerspage__parttile{
+    margin-bottom: 20px;
+}
+
+.headerspage__parttile h2{
+    font-size: 45px;
+    color: rgb(16, 16, 16);
+}
+
+.headerspage__partdesc p{
+    font-size: 20px;
+    color: rgb(34, 34, 34);
+    font-weight: 200;
+}  
+
+.headerspage__partdesc{
+    margin-bottom: 60px;
+}

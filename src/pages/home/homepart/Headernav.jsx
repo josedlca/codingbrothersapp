@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../img/logo.png';
+import logo from './../../../img/logo.png';
 import {Nav, NavItem , NavLink} from 'reactstrap';
 import './headernav.css';
 
