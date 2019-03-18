@@ -1,0 +1,129 @@
+.latestcard{
+    width: 100%;
+    height: 100%;
+}
+
+.latestcard__img{
+    width: 100%;
+    height: 300px;
+    background: bisque;
+}
+
+.latestcard__img--sale{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+}
+
+.latestcard__img--sale a:link,
+.latestcard__img--sale a:visited{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: #000;
+    background-image: linear-gradient(120deg, #000 0%, #000 50%, #fff 50%);
+    background-size: 250%;
+    background-position: 0%;
+    transition: all .6s;
+}
+
+.latestcard__img--sale a:hover,
+.latestcard__img--sale a:active{
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    color: #000;
+    background-size: 250%;
+    text-decoration: none;
+    background-position: 100%;
+    transition: all .6s;
+}
+
+.latestcard__description{
+    padding: 30px 20px;
+    background: #fff;
+}
+.latestcard__description--title{
+    margin-bottom: 10px;
+}
+.latestcard__description--title h3{
+    font-size: 24px;
+    margin: 0;
+    color: rgb(51, 51, 51);
+}  
+
+.latestcard__description--adress p{
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    margin: 0;
+}
+
+.latestcard__description--adress{
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 20px;
+}
+
+.latestcard__description--details{
+    margin-bottom: 15px;
+}
+
+.latestcard__description--details ul{
+    padding: 0;
+    margin: 0;
+}
+
+.latestcard__description--details ul li{
+    list-style: none;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    display: inline-block;
+} 
+
+.latestcard__description--details ul li:not(:last-child){
+    margin-right: 20px;
+}
+
+.latestcard__description--price p{
+    font-size: 20px;   
+    color: #000; 
+    margin: 0;
+    font-weight: 500;
+}
+
+.latestcard__description--icons ul{
+    margin: 0;
+    padding: 0;
+}
+
+.latestcard__description--icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.latestcard__description--icons ul li:not(:last-child){
+    margin-right: 15px;
+}
+
+.latestcard__description--icons ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    margin: 0;
+}
+
+.latestcard__description--button{
+    margin-top: 15px;
+}
+
+.latestcard__description--button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+    margin: 0;
+}  
+
+.latestcard__description--button a:hover{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}

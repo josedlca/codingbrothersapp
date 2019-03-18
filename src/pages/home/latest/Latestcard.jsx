@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './latestcard.css'
 
 class Latestcard extends Component{
     render(){
@@ -6,6 +7,9 @@ class Latestcard extends Component{
             <div className="col-md-4">
                 <div className="latestcard">
                     <div className="latestcard__img">
+                        <div className="latestcard__img--sale">
+                            <a href="#">For sale</a>
+                        </div>
                     </div>
                     <div className="latestcard__description">
                         <div className="row">
@@ -29,17 +33,17 @@ class Latestcard extends Component{
                                 </div>
                             </div>
                             <div className="col-md-12">
-                                <div className="row">
-                                    <div className="col-md-6">
+                                <div className="row align-items-center">
+                                    <div className="col-md-6 align-self-center">
                                         <div className="latestcard__description--price">
                                             <p>$259,900</p>
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 align-self-center text-right">
                                         <div className="latestcard__description--icons">
                                             <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
+                                                <li><a href="#"><i className="fas fa-heart"></i></a></li>
+                                                <li><a href="#"><i className="fas fa-share-alt"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -47,7 +51,7 @@ class Latestcard extends Component{
                             </div>
                             <div className="col-md-12">
                                 <div className="latestcard__description--button">
-                                    <a href="#">GET DETAIL</a>
+                                    <a href="#">GET DETAILS</a>
                                 </div>
                             </div>
                         </div>
