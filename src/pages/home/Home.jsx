@@ -5,6 +5,7 @@ import Smallform from './formpart/Smallform';
 import Services from './servicespart/Services'
 import Aboutus from './aboutpart/Aboutus'
 import Latest from './latest/Latest'
+import Smalljumbo from './smalljumbo/Smalljumbo'
 
 class Home extends Component {
   render() {
@@ -15,7 +16,8 @@ class Home extends Component {
         <Smallform />
         <Services />
         <Aboutus />
-        <Latest/>
+        <Latest />
+        <Smalljumbo />
       </div>
     );
   }
