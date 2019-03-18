@@ -3,6 +3,7 @@ import Headernav from './homepart/Headernav';
 import Bigbg from './homepart/Bigbg';
 import Smallform from './formpart/Smallform';
 import Services from './servicespart/Services'
+import Aboutus from './aboutpart/Aboutus'
 
 class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends Component {
         <Bigbg />
         <Smallform />
         <Services />
+        <Aboutus />
       </div>
     );
   }
