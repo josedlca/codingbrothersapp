@@ -11,6 +11,8 @@ class News extends Component {
                     <Headerspage title={'Latest News'} description={'Build Your With Us'} />
                     <div className="row">
                         <Newscard />
+                        <Newscard />
+                        <Newscard />
                     </div>
                 </div>
             </section>    
