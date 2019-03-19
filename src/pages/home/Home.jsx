@@ -9,6 +9,7 @@ import Smalljumbo from './smalljumbo/Smalljumbo'
 import Featured from './featured/Featured'
 import Clientsay from './clientsay/Clientsay'
 import News from './news/News'
+import Ourclient from './ourclient/Ourclient'
 
 class Home extends Component {
   render() {
@@ -24,6 +25,7 @@ class Home extends Component {
         <Featured />
         <Clientsay />
         <News />
+        <Ourclient />
       </div>
     );
   }
