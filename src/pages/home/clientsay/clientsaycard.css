@@ -1,0 +1,48 @@
+.clientsaycard{
+    background: #f7f7f7;
+    padding: 50px 0;
+}
+.clientsaycard__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ebebeb;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.clientsaycard__name{
+    margin-bottom: 5px;
+}
+.clientsaycard__name p{
+    font-size: 18px;
+    color: rgb(30, 30, 39);
+    margin: 0;
+}
+.clientsaycard__work{
+    margin-bottom: 20px;
+}
+.clientsaycard__work p{
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    margin: 0;
+}
+.clientsaycard__comment{
+    margin-bottom: 40px;
+}
+.clientsaycard__comment p{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-style: italic;
+    margin: 0;
+}
+
+.clientsaycard__start ul{
+    margin: 0;
+    padding: 0;
+}
+.clientsaycard__start ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    color: #ffba00;
+}

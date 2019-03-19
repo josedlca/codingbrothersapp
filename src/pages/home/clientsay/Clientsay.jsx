@@ -11,6 +11,8 @@ class Clientsay extends Component {
                     <Headerspage title={'What Client Say'} description={'Latest article from our client'} />
                     <div className="row">
                         <Clientsaycard />
+                        <Clientsaycard />
+                        <Clientsaycard />
                     </div>
                 </div>
             </section>    
