@@ -11,6 +11,8 @@ class Latest extends Component {
                     <Headerspage title={'Latest Added Property'} description={'We provide good quality'} />
                     <div className="row">
                         <Latestcard />
+                        <Latestcard />
+                        <Latestcard />
                     </div>
                 </div>
             </section>    
