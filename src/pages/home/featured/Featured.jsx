@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Headerspage from './../../../components/Headerspage';
+import './featured.css'
 
 class Featured extends Component {
     render() {
@@ -25,19 +26,21 @@ class Featured extends Component {
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio tempore repudiandae nobis nostrum laudantium distinctio dignissimos libero ducimus illum, doloribus, doloremque ipsa, beatae accusamus? Necessitatibus unde nulla natus fuga ipsam!</p>
                                         </div>
                                     </div>
-                                    <div className="cool-md-12">
-                                        <div className="featured__description--table">
-                                            <tr>
-                                                <th>Start Time</th>
-                                                <th>Complete Time</th>
-                                                <th>Developed By</th>
-                                            </tr>
-                                            <tr>
-                                                <td>25 Jan 2017</td>
-                                                <td>30 March 2018</td>
-                                                <td>Innovative Dev</td>
-                                            </tr>
-                                        </div>
+                                    <div className="col-md-12">
+                                        <table className="featured__description--table">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Start Time</th>
+                                                    <th>Complete Time</th>
+                                                    <th>Developed By</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>25 Jan 2017</td>
+                                                    <td>30 March 2018</td>
+                                                    <td>Innovative Dev</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="featured__description--button">

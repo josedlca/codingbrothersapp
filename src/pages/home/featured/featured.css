@@ -1,0 +1,74 @@
+.featured__description{
+    padding: 90px 0;
+}
+.featured__description--title{
+    margin-bottom: 40px;
+}
+
+.featured__description--title h3{
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    margin: 0;
+    font-weight: 400;
+}
+
+.featured__description--text{
+    padding-bottom: 40px;
+    border-bottom: 2px #000 solid;
+    margin-bottom: 20px;
+}
+
+.featured__description--text p{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    margin: 0;
+}  
+
+.featured__description--table{
+    width: 100%;
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 20px;
+    border-collapse: inherit;
+    margin-bottom: 40px;
+}
+
+.featured__description--table tr th{
+    font-size: 15px;
+    color: rgb(23, 23, 23);
+}
+
+.featured__description--table tr td{
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    padding-top: 20px;
+}
+
+.featured__description--button{
+    display: inline-block;
+}
+
+.featured__description--button a:link,
+.featured__description--button a:visited{
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+    background-image: linear-gradient(120deg, #000 0%, #000 50%, transparent 50%);
+    background-size: 220%;
+    border: 2px solid #fff;
+    background-position: 0%;
+    transition: all .6s;
+}
+
+.featured__description--button a:hover,
+.featured__description--button a:active{
+    background-image: linear-gradient(120deg, #000 0%, #000 50%, #fff 50%);
+    color: #000;
+    background-size: 220%;
+    border: 2px solid #000;
+    background-position: 100%;
+    transition: all .6s;
+}
+  
