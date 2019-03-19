@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Headerspage from './../../../components/Headerspage';
+import imgcard from './../../../img/testcard.jpg';
 import './featured.css'
 
 class Featured extends Component {
@@ -8,9 +9,10 @@ class Featured extends Component {
             <section className="featured">
                 <div className="container">
                     <Headerspage title={'Featured Properties'} description={'Build Your Dream With Us'} />
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-md-5">
                             <div className="featured__img">
+                                <img src={imgcard} alt="otest"/>
                             </div>
                         </div>
                         <div className="col-md-7">
