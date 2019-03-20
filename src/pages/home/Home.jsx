@@ -10,6 +10,8 @@ import Featured from './featured/Featured'
 import Clientsay from './clientsay/Clientsay'
 import News from './news/News'
 import Ourclient from './ourclient/Ourclient'
+import Footer from './footer/Footer'
+import Credits from './credits/Credits'
 
 class Home extends Component {
   render() {
@@ -26,6 +28,8 @@ class Home extends Component {
         <Clientsay />
         <News />
         <Ourclient />
+        <Footer />
+        <Credits/>
       </div>
     );
   }

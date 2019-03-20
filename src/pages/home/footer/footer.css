@@ -1,0 +1,150 @@
+.footer{
+    background: #1d1d1d;
+    padding: 100px 0;
+}
+
+.ftitles{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+.footer__contact ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__contact ul li{
+    list-style: none;
+    font-size: 15px;
+    color: rgb(161, 164, 193);
+    display: flex;
+    align-items: center;
+}
+
+.footer__contact ul li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.footer__contact ul li:first-child{
+    border-bottom: 1px solid #292b3d;
+    padding-bottom: 30px;
+}
+
+.footer__contact ul li i{
+    margin-right: 10px;
+}
+
+.footer__contact ul li p{
+    margin: 0;
+}
+
+.footer__contact ul li p span{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.footer__service ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__service ul li{
+    list-style: none;
+}
+
+.footer__service ul li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.footer__service ul li a{
+    font-size: 15px;
+    color: rgb(161, 164, 193);
+}
+
+.footer__service ul li a:hover{
+    text-decoration: none;
+}
+
+.footer__recent--post:not(:last-child){
+    padding-bottom: 10px;
+    border-bottom: 1px solid #292b3d;
+    margin-bottom: 10px;
+}
+
+.footer__recent--post_img{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+}
+
+.footer__recent--post_desc-text p{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(161, 164, 193);
+}
+
+.footer__recent--post_desc-date a{
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer__recent--post_desc-date a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__recent--post_desc-comments p{
+    color: rgb(214, 223, 237);
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer__newsletter p{
+    font-size: 15px;
+    color: rgb(161, 164, 193);
+    margin-bottom: 30px;
+}
+
+.footer__newsletter input[type="email"]{
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.footer__newsletter input[type="email"]::placeholder{
+    font-size: 13px;
+    color: rgb(202, 203, 204);
+}  
+
+.footer__newsletter input[type="submit"]{
+    font-size: 15px;
+    color: #fff;
+    background: #000;
+    border: none;
+    padding: 15px 40px;
+    transition: all ease .4s;
+    font-weight: 500;
+}
+
+.footer__newsletter input[type="submit"]:hover{
+    color: #000;
+    background: #fff;
+}
+
+.Submit {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    left: 1314.147px;
+    top: 7806.5px;
+    z-index: 48;
+  }
+  

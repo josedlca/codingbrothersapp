@@ -1,0 +1,38 @@
+.credits{
+    background: #1a1a1a;
+    padding: 30px 0;
+}
+
+.credits p{
+    font-size: 15px;
+    color: rgb(146, 160, 170);
+    margin: 0;
+}
+
+.credits p span{
+    color: #fff;
+}
+
+.credits ul{
+    margin: 0;
+    padding: 0;
+}
+
+.credits ul li{
+    list-style: none;
+    display: inline-block;
+}
+.credits ul li:not(:last-child){
+    margin-right: 15px;
+}
+
+.credits ul li a{
+    font-size: 20px;
+    color: #606060;
+    transition: all ease .3s;
+}
+
+.credits ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+} 

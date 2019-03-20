@@ -30,11 +30,11 @@ class Clientsaycard extends Component {
                         <div className="col-md-12 text-center">
                             <div className="clientsaycard__start">
                                 <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i className="fas fa-star"></i></li>
+                                    <li><i className="fas fa-star"></i></li>
+                                    <li><i className="fas fa-star"></i></li>
+                                    <li><i className="fas fa-star"></i></li>
+                                    <li><i className="fas fa-star"></i></li>
                                 </ul>
                             </div>
                         </div>
